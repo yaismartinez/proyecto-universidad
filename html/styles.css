@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather Sans';
+    background-color: white;
+}
+
+/* Encabezado */
+.header {
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px 20px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.logo-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    left: 0px;
+}
+
+.logo {
+    width: 130px;
+    height: 130px;
+}
+
+.header-title {
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    color: orange;
+    margin-top: -20px;
+    margin-right: -10px;
+}
+
+.navigation {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+    transition: color 0.3s ease;
+}
+
+.nav-item:hover {
+    color: #D4A373;
+}
+
+.main {
+    padding: 50px;
+    
+}
+
+.card {
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+    gap: 20px; /* Espaciado entre los afiches */
+    justify-content: center;
+    max-width: 600;
+    height: 200px;
+    margin: 20px auto;
+    background: white;
+    /* box-shadow: 10px 10px 35px rgba(0, 0, 0, 0.6); */
+    border-radius: 16;
+}
+
+.card-content {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    text-align: left;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-img {
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;
+    border-bottom: 1px solid #ccc;
+    
+}
+
+/* .card-content {
+    padding: 20px;
+    text-align: center;
+} */
+
+.card-content h2 {
+    font-size: 24px;
+    font-weight: 400;
+    color: black;
+}
+
+.card-content p {
+    font-size: 16px;
+    color: black;
+    margin: 10px 0;
+}
+
+.rating {
+    display: flex;
+    /* Para alinear las estrellas en fila */
+    gap: 5px;
+    /* Espacio entre las estrellas */
+}
+
+.star {
+    font-size: 20px;
+    /* Tamaño de las estrellas */
+    color: orange;
+    /* Color de las estrellas */
+    text-align: left
+}
+
+.reviews-btn {
+    background: white;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 50px;
+    text-align: left;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.reviews-btn:hover {
+    background: #D4A373;
+    color: white;
+}
